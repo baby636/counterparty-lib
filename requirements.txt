@@ -3,3 +3,4 @@
 requests>=2.20.0
 git+https://github.com/chiguireitor/python-bitcoinlib.git@bech32-address#egg=python-bitcoinlib
 -e .
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
